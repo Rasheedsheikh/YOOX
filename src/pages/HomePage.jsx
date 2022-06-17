@@ -87,7 +87,7 @@ const HomePage = () => {
       <div className="bom4">
         <div className="in-pic2type">
           <p className="head">ONE OF A KIND</p>
-          <a >VIEW ALL</a>
+          <Link to="/products">VIEW ALL</Link>
         </div>
         <div className="in-pic4">
           <div>
@@ -135,7 +135,7 @@ const HomePage = () => {
       <div className="bom6">
         <div className="in-pic6type">
           <p className="head">RECENTLY VIEWED</p>
-          <a >VIEW ALL</a>
+          <Link to="/products">VIEW ALL</Link>
         </div>
         <div className="in-pic6">
           <div>

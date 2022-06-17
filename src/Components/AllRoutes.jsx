@@ -16,8 +16,9 @@ import SignUp from '../pages/Login/SignUp'
 import MainMen from '../pages/MainMen'
 import CheckOut from '../pages/Login/CheckOut'
 import KidsMain from '../pages/KidsMain'
-import Payment from '../pages/Payment'
+
 import Order from '../pages/Order'
+import Payment2 from '../pages/Payment2'
 const AllRoutes = () => {
   return (
     <div>
@@ -38,8 +39,9 @@ const AllRoutes = () => {
         <Route path="/kidsmain" element={<KidsMain/>}/>
 
         <Route path="/checkout" element={<CheckOut/>}/>
-        <Route path="/payment"  element={<Payment/>}/>
+     
         <Route path="/order"   element={<Order/>}/>
+        <Route path="/payment2" element={<Payment2/>}/>
       </Routes>
 
     </div>

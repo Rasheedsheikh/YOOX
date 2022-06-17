@@ -31,7 +31,7 @@ const MainMen = () => {
           <a>DRIES VAN NOTEN</a>
           <a>THOM BROWNE</a>
         
-            <Link to="/products">VIEW ALL</Link>
+            <Link to="/mens">VIEW ALL</Link>
         </div>
         <div> <img src="https://www.yoox.com/images/yoox80/banners/5628_1_Multiform_HL.gif?634485886869569819#width=430&height=600" alt=""/>
           <h2>TURN BACK TIME</h2>

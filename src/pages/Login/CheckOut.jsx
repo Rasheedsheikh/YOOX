@@ -9,7 +9,7 @@ const CheckOut = () => {
   const nav=useNavigate()
 
   const handleClick=()=>{
-    nav("/payment")
+    nav("/payment2")
   }
 
   return (

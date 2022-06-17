@@ -1,7 +1,12 @@
 import React from 'react'
-import { Link } from 'react-router-dom'
+import { Link, useNavigate } from 'react-router-dom'
 
 const Total = ({total}) => {
+    const nav=useNavigate()
+
+    const handleClick=()=>{
+      nav("/checkout")
+    }
 
     
     var sum= total.toFixed(2)
@@ -30,8 +35,10 @@ const Total = ({total}) => {
         <div className='totalpage'>
             <h4>BACK TO SHOPPING</h4>
             {/* <button></button> */}
-      <button className='checkout' >   <Link  style={{color:"white" }}to="/checkout">CHECK OUT</Link></button> 
-
+      {/* <button className='checkout' >   <Link  style={{color:"white" }}to="/checkout">CHECK OUT</Link></button>  */}
+      <button  className="btn" onClick={()=>{handleClick()}}>
+        CHECK OUT
+</button>
         </div>
 {/* <h1>{total}</h1> */}
     </div>

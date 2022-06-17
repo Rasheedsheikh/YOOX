@@ -109,7 +109,7 @@ const KidsMain = () => {
 <div className="bom6">
 <div className="in-pic6type">
   <p className="head">RECENTLY VIEWED</p>
-  <a href="">VIEW ALL</a>
+  <Link to="/kids">VIEW ALL</Link>
 </div>
 <div className="in-pic6">
   <div>

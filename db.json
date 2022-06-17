@@ -606,9 +606,84 @@
       "email": "",
       "password": "",
       "id": 74
+    },
+    {
+      "email": "",
+      "password": "",
+      "id": 75
+    },
+    {
+      "email": "",
+      "password": "",
+      "id": 76
+    },
+    {
+      "email": "rasheedsheikh9786@gmail.com",
+      "password": "1234",
+      "id": 77
+    },
+    {
+      "email": "rasheedsheikh9786@gmail.com",
+      "password": "123456",
+      "id": 78
+    },
+    {
+      "email": "1234t",
+      "password": "werty",
+      "id": 79
     }
   ],
   "cart": [
-    
+    {
+      "params": {
+        "e": {
+          "id": 3,
+          "title": "MISSONI",
+          "price": 281,
+          "description": "great outerwear jackets for Spring/Autumn/Winter, suitable for many occasions, such as working, hiking, camping, mountain/rock climbing, cycling, traveling or other outdoors. Good gift choice for you or your family member. A warm hearted love to Father, husband or son in this thanksgiving or Christmas Day.",
+          "category": "men's clothing",
+          "image": "https://www.yoox.com/images/items/12/12821986qb_14_r.jpg?width=210&height=272&impolicy=crop&gravity=Center",
+          "rating": {
+            "rate": 4.7,
+            "count": 500
+          }
+        }
+      },
+      "id": 1
+    },
+    {
+      "params": {
+        "e": {
+          "id": 6,
+          "title": "MISSONI",
+          "price": 168,
+          "description": "Satisfaction Guaranteed. Return or exchange any order within 30 days.Designed and sold by Hafeez Center in the United States. Satisfaction Guaranteed. Return or exchange any order within 30 days.",
+          "category": "women's clothing",
+          "image": "https://www.yoox.com/images/items/13/13792883ej_14_r.jpg?width=210&height=272&impolicy=crop&gravity=Center",
+          "rating": {
+            "rate": 3.9,
+            "count": 70
+          }
+        }
+      },
+      "id": 2
+    },
+    {
+      "params": {
+        "e": {
+          "id": 28,
+          "title": "VALENTINO",
+          "price": 558,
+          "description": "Jack & Jones Men Casual Wear Mid-Rise Slim Fit Solid Blue Jeans With 5 pockets",
+          "category": "men's clothing",
+          "image": "https://www.yoox.com/images/items/13/13766340ku_14_r.jpg?width=210&height=272&impolicy=crop&gravity=Center",
+          "rating": {
+            "rate": 4,
+            "count": 29
+          }
+        }
+      },
+      "id": 3
+    }
   ]
 }
