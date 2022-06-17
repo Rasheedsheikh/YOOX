@@ -9,12 +9,12 @@ const MainMen = () => {
 
 <Navbar/>
      
-      <div className="pic">
+      <div className="bom">
 
         <div><img src="https://www.yoox.com/images/yoox80/banners/6862_1_HL_DM_US.png?634485886869569819#width=430&height=600" alt=""/>
           <h2>SALE: UP TO 70% OFF</h2>
           <p>Even more items added!</p>
-          <a href="othershop.html">SHOP NOW</a>
+          <a>SHOP NOW</a>
         </div>
 
         <div>
@@ -40,7 +40,7 @@ const MainMen = () => {
         </div>
 
       </div>
-      <div className="pic2">
+      <div className="bom2">
         <div className="in-pic2type">
           <p className="head">NEW ARRIVALS</p>
           <Link to="/mens">VIEW ALL</Link>
@@ -67,7 +67,7 @@ const MainMen = () => {
         </div>
 
       </div>
-      <div className="pic3">
+      <div className="bom3">
       <div className="in-pic2type" >
           <p className="head">ONE OF A KIND</p>
           <Link to="/mens">VIEW ALL</Link>
@@ -91,7 +91,7 @@ const MainMen = () => {
             <p>The value of craftsmanship</p>
         </div>
     
-      {/* <div className="pic4"> */}
+      {/* <div className="bom4"> */}
       
         </div>
         <div className="in-pic4">
@@ -119,7 +119,7 @@ const MainMen = () => {
         </div>
 
    
-      <div className="pic5">
+      <div className="bom5">
         <div className="in-pic5f">
           <h2>LET THE SHOW BEGIN</h2>
           <p>Discover the 8 by YOOX sale</p>
@@ -136,9 +136,13 @@ const MainMen = () => {
             <p>$35.00</p>
         </div>
         <p><i className="fas fa-arrow-right"></i></p>
+
+
       </div>
-      <div className="pic6">
+      <div className="bom6">
+
         <div className="in-pic6type">
+          
           <p className="head">RECENTLY VIEWED</p>
           <Link to="/mens">VIEW ALL</Link>
         </div>
@@ -165,7 +169,7 @@ const MainMen = () => {
         </div>
 
       </div>
-      <div className="pic7">
+      <div className="bom7">
         <div className="inpic7-1">
           <div>
             <h2>LET IT GLOW</h2>

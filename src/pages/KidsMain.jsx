@@ -2,22 +2,23 @@ import React from 'react'
 import { Link } from 'react-router-dom'
 import Footer from '../Components/Footer'
 import Navbar3 from '../Components/Navbar3'
+import Navbar4 from '../Components/Navbar4'
 
 const KidsMain = () => {
   return (
     <>
-    <Navbar3/>
+    <Navbar4/>
     {/* <div>
       <img style={{ width:"80%"}} src="https://www.yoox.com/images/yoox80/banners/6821_1_BeachDays_Main_K.jpg?634485886869569819#width=1380&height=637"/>
     </div> */}
 
 <div>
-        <div className="pic">
+        <div className="bom">
 
 
 
 </div>
-<div className="pic2">
+<div className="bom2">
 <div className="in-pic2type">
   <p className="head">NEW ARRIVALS</p>
   <Link to="/kids">VIEW ALL</Link>
@@ -44,7 +45,7 @@ const KidsMain = () => {
 </div>
 
 </div>
-<div className="pic3">
+<div className="bom3">
 <div className="img1">
   <img  src="https://www.yoox.com/images/items/12/12826937KT_14_f.jpg?impolicy=crop&width=306&height=390" alt=""/>
     <h1>MARCO BURLON</h1>
@@ -61,17 +62,17 @@ const KidsMain = () => {
     <p>DON'T miss our selection of watches</p>
 </div>
 </div>
-<div className="pic4">
+<div className="bom4">
 <div className="in-pic2type">
   <p className="head">ONE OF A KIND</p>
   <Link to="/kids">VIEW ALL</Link>
 </div>
 <div className="in-pic4">
-  <div>
+  {/* <div>
     <img  src="https://www.yoox.com/images/yoox80/banners/6821_1_GiocoeCasa_tris_K.jpg?634485886869569819" alt=""/>
       <h2>TOYS & MORE</h2>
     
-  </div>
+  </div> */}
   <div>
     <img  src="https://www.yoox.com/images/yoox80/banners/6821_3_Billieblush_Tris_K.jpg?634485886869569819#width=387&height=540" alt=""/>
       <h4>BILLIEBLUSH</h4>
@@ -87,13 +88,13 @@ const KidsMain = () => {
 </div>
 
 </div>
-<div className="pic5">
+<div className="bom5">
 <div className="in-pic5f">
   <h2>LET THE SHOW BEGIN</h2>
   <p>Discover the 8 by YOOX sale</p>
   <div>
-    <a href="othershop.html">SHOP NOW</a>
-    <a href="shop.html">DISCOVER MORE</a>
+    <Link to="/kids">SHOP NOW</Link>
+    <Link to="/kids">DISCOVER MORE</Link>
   </div>
 </div>
 <div className="in-pic5d">
@@ -105,7 +106,7 @@ const KidsMain = () => {
 </div>
 <p><i className="fas fa-arrow-right"></i></p>
 </div>
-<div className="pic6">
+<div className="bom6">
 <div className="in-pic6type">
   <p className="head">RECENTLY VIEWED</p>
   <a href="">VIEW ALL</a>
@@ -133,7 +134,7 @@ const KidsMain = () => {
 </div>
 
 </div>
-<div className="pic7">
+<div className="bom7">
 <div className="inpic7-1">
   <div>
     <h2>LET IT GLOW</h2>

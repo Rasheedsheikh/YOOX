@@ -9,7 +9,7 @@ const HomePage = () => {
 
 <Navbar/>
      
-      <div className="pic">
+      <div className="bom">
 
         <div><img src="https://www.yoox.com/images/yoox80/banners/6655_4_HL_MKD_SALE_W.jpg?634485886869569819#width=430&height=600" alt=""/>
           <h2>SALE: UP TO 70% OFF</h2>
@@ -24,7 +24,7 @@ const HomePage = () => {
           <a >PRADA</a>
           <a >MARNI</a>
           <a >GUCCI</a>
-          <a href="">BALENCIAGA</a>
+          <a >BALENCIAGA</a>
 
           <a >GIVENCHY</a>
           <a >JIL SENDER</a>
@@ -36,11 +36,11 @@ const HomePage = () => {
         <div> <img src="https://www.yoox.com/images/yoox80/banners/5628_1_Multiform_HL.gif?634485886869569819#width=430&height=600" alt=""/>
           <h2>TURN BACK TIME</h2>
           <p>Pants — pick your favorite retro style</p>
-          <a href="">SHOP NOW</a>
+          <a >SHOP NOW</a>
         </div>
 
       </div>
-      <div className="pic2">
+      <div className="bom2">
         <div className="in-pic2type">
           <p className="head">NEW ARRIVALS</p>
           <Link to="/products">VIEW ALL</Link>
@@ -67,7 +67,7 @@ const HomePage = () => {
         </div>
 
       </div>
-      <div className="pic3">
+      <div className="bom3">
         <div className="img1">
           <img  src="https://www.yoox.com/images/yoox80/banners/6825_2_Seletti_Tris.png?634485886869569819#width=473&height=660" alt=""/>
             <h1>SELETTI</h1>
@@ -84,7 +84,7 @@ const HomePage = () => {
             <p>DON'T miss our selection of watches</p>
         </div>
       </div>
-      <div className="pic4">
+      <div className="bom4">
         <div className="in-pic2type">
           <p className="head">ONE OF A KIND</p>
           <a >VIEW ALL</a>
@@ -114,7 +114,7 @@ const HomePage = () => {
         </div>
 
       </div>
-      <div className="pic5">
+      <div className="bom5">
         <div className="in-pic5f">
           <h2>LET THE SHOW BEGIN</h2>
           <p>Discover the 8 by YOOX sale</p>
@@ -132,10 +132,10 @@ const HomePage = () => {
         </div>
         <p><i className="fas fa-arrow-right"></i></p>
       </div>
-      <div className="pic6">
+      <div className="bom6">
         <div className="in-pic6type">
           <p className="head">RECENTLY VIEWED</p>
-          <a href="">VIEW ALL</a>
+          <a >VIEW ALL</a>
         </div>
         <div className="in-pic6">
           <div>
@@ -160,14 +160,14 @@ const HomePage = () => {
         </div>
 
       </div>
-      <div className="pic7">
+      <div className="bom7">
         <div className="inpic7-1">
           <div>
             <h2>LET IT GLOW</h2>
             <p>Let's have some fun, the night is about to begin!</p>
             <div>
-              <a href="">DESCOVER MORE</a>
-              <a href="">SHOP NOW</a>
+              <a >DESCOVER MORE</a>
+              <a >SHOP NOW</a>
             </div>
           </div>
         </div>
@@ -175,7 +175,7 @@ const HomePage = () => {
           <div>
             <h2>NEW & NOW</h2>
             <p>Check out the latest arrivals</p>
-            <a href="">DESCOVER THEM MORE</a>
+            <a >DESCOVER THEM MORE</a>
           </div>
         </div>
       </div>
@@ -191,13 +191,13 @@ const HomePage = () => {
                     <div>
                       <h3>HELP</h3>
                       <hr/>
-                        <a href="">Shipping times & costs</a><br/><br/>
-                          <a href=""> Payments and web security</a><br/><br/>
-                            <a href="">Product quality</a><br/><br/>
-                              <a href="">Track your order</a><br/><br/>
-                                <a href="">Returns & refunds</a><br/><br/>
-                                  <a href="">FAQs</a><br/><br/>
-                                    <a href="">Size Guide</a><br/><br/>
+                        <a >Shipping times & costs</a><br/><br/>
+                          <a > Payments and web security</a><br/><br/>
+                            <a >Product quality</a><br/><br/>
+                              <a >Track your order</a><br/><br/>
+                                <a >Returns & refunds</a><br/><br/>
+                                  <a >FAQs</a><br/><br/>
+                                    <a >Size Guide</a><br/><br/>
                                     </div>
                                       <div className="signup">
                                         <ion-icon name="mail-outline"></ion-icon>
@@ -206,17 +206,17 @@ const HomePage = () => {
                                         <input className="submit" type="email" placeholder="INSERT YOUR E-MAIL ADDRESS"/>
                                           <div>
                                             <div>
-                                              <input id="roundcheck" type="checkbox"/>
+                                              <input  type="checkbox"/>
                                                 <p>Woman</p>
                                             </div>
                                             <div>
-                                              <input id="roundcheck" type="checkbox"/>
+                                              <input  type="checkbox"/>
                                                 <p>Man</p>
                                             </div>
                                           </div>
                                           <div className="check">
                                             <input type="checkbox"/>
-                                              <p>I consent to receive YOOX newsletters via email. For further information, please consult the <a href="">Privacy Policy</a>.</p>
+                                              <p>I consent to receive YOOX newsletters via email. For further information, please consult the <a >Privacy Policy</a>.</p>
 
                                           </div>
                                           <input className="btn" type="submit" placeholder="SIGN UP"/>
@@ -225,19 +225,19 @@ const HomePage = () => {
                                           <div>
                                             <h3>MYOOX</h3>
                                             <hr/>
-                                              <a href="logsin.html">Login</a><br/><br/>
-                                                <a href="">My Orders</a><br/><br/>
-                                                  <a href="">My Details</a><br/><br/>
-                                                    <a href="">Dream Box</a><br/><br/>
-                                                      <a href="">Première</a><br/><br/>
+                                              <Link to="/signin">Login</Link><br/><br/>
+                                                <a >My Orders</a><br/><br/>
+                                                  <a >My Details</a><br/><br/>
+                                                    <a >Dream Box</a><br/><br/>
+                                                      <a >Première</a><br/><br/>
                                                       </div>
                                                         <div>
                                                           <h3>ABOUT US</h3>
                                                           <hr/>
-                                                            <a href="">Company Info</a><br/><br/>
-                                                              <a href="">Press</a><br/><br/>
-                                                                <a href="">Affiliation</a><br/><br/>
-                                                                  <a href="">Careers</a><br/><br/>
+                                                            <a >Company Info</a><br/><br/>
+                                                              <a >Press</a><br/><br/>
+                                                                <a >Affiliation</a><br/><br/>
+                                                                  <a >Careers</a><br/><br/>
                                                                   </div>
                                                                   </div>
                                                                   <div className="last2">

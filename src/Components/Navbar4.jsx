@@ -2,7 +2,7 @@ import React from 'react'
 import SimpleImageSlider from "react-simple-image-slider";
 import { Link, NavLink } from 'react-router-dom';
 
-const Navbar2 = () => {
+const Navbar4 = () => {
 
   return (
     <div>
@@ -59,7 +59,7 @@ const Navbar2 = () => {
 
 
    
- <img  style={{marginTop:"1px",width:"90%"}}src="https://www.yoox.com/images/yoox80/banners/6895_1_Pride_Main_WM.jpg?634485886869569819#width=1380&height=637"/> 
+ <img  style={{marginTop:"1px",width:"90%"}}src="https://www.yoox.com/images/yoox80/banners/6821_1_BeachDays_Main_K.jpg?634485886869569819#width=1380&height=637"/> 
    
  
  </div>   
@@ -68,4 +68,4 @@ const Navbar2 = () => {
   )
 }
 
-export default Navbar2
+export default Navbar4

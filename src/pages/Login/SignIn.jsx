@@ -6,7 +6,7 @@ import axios from "axios";
 import { useDispatch } from "react-redux";
 
 import { isAuthAction } from "../../Redux/action";
-import { useNavigate } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 import Footer from "../../Components/Footer";
 import Navbar3 from "../../Components/Navbar3";
 export const SignIn = () => {
@@ -93,6 +93,9 @@ export const SignIn = () => {
         <button className="btn" onClick={login}>
           LOG IN
         </button>
+
+        <p>IF YOU HAVEN'T SIGN UP </p>
+        <Link to="/signup">REGISTER</Link>
       </div>
     </div>
 

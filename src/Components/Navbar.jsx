@@ -9,7 +9,7 @@ const Navbar = () => {
     { url: "https://www.yoox.com/images/yoox80/banners/5628_2_Multiform_Main.gif?634485886601286852&impolicy=cropDefault&width=960&height=510" },
     { url: "https://www.yoox.com/images/yoox80/banners/6821_1_BeachDays_Main_K.jpg?634485886869569819#width=1380&height=637" },
     { url: "https://www.yoox.com/images/yoox80/banners/5628_2_Multiform_Main.gif?634485886601286852&impolicy=cropDefault&width=960&height=510" },
-    { url: "images/6.jpg" },
+    { url: "https://www.yoox.com/images/yoox80/banners/6821_1_BeachDays_Main_K.jpg?634485886869569819#width=1380&height=637" },
     { url: "https://www.yoox.com/images/yoox80/banners/5628_2_Multiform_Main.gif?634485886601286852&impolicy=cropDefault&width=960&height=510" },
   ];
   return (
