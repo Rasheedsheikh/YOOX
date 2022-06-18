@@ -2,6 +2,12 @@
 To see the products you have to run json-server 3005
 <img width="960" alt="image" src="https://user-images.githubusercontent.com/100085425/174425443-a10e168b-6778-413e-8476-7172314e4ec4.png">
 
+You can also see men women kids products separately by running json-server port 3005
+
+<img width="960" alt="image" src="https://user-images.githubusercontent.com/100085425/174425533-8e5f6e7b-e49e-41ee-8ced-8d83b2df8765.png">
+
+
+
 
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
