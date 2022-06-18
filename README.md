@@ -1,4 +1,18 @@
 # Getting Started with Create React App
+
+# YOOXClone
+# Steps to run the Project:
+1. clone the Repository
+2. Run npm i 
+3. Run npm start
+4. npm run json-server
+5. visit localhost:3005/
+
+
+## Tech Stack & Tools :
+React.js,Javascript , ES6,css
+
+
 To see the products you have to run json-server 3005
 <img width="960" alt="image" src="https://user-images.githubusercontent.com/100085425/174425443-a10e168b-6778-413e-8476-7172314e4ec4.png">
 
